@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 
 gem 'rails', '4.1.2'
@@ -11,9 +11,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 
-group :develoment, :test do
+group :development, :test do
 	gem 'sqlite3'
-end 
+end
 
 group :production do
 	gem 'pg'
